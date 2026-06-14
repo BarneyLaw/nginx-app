@@ -36,7 +36,7 @@ jobs:
       - name: Checkout config repo
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/homelab-config
+          repository: ${{ github.repository_owner }}/homelab-cicd-config
           token: ${{ secrets.CONFIG_REPO_TOKEN }}
           path: config
 
